@@ -16,6 +16,7 @@ public class JobService {
     private JobRepo repo;
 
     public void addJob(JobPost jobPost) {
+//        int num = 10 / 0;
         repo.save(jobPost);
     }
 
