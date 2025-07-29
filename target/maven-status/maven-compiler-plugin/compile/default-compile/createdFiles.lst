@@ -1,0 +1,8 @@
+com\train\jobAppApiJpa\model\JobPost.class
+com\train\jobAppApiJpa\service\JobService.class
+com\train\jobAppApiJpa\aop\LoggingAspect.class
+com\train\jobAppApiJpa\aop\ValidationAspect.class
+com\train\jobAppApiJpa\JobAppApiJpaApplication.class
+com\train\jobAppApiJpa\repository\JobRepo.class
+com\train\jobAppApiJpa\aop\PerformanceMonitorAspect.class
+com\train\jobAppApiJpa\controller\JobRestController.class
