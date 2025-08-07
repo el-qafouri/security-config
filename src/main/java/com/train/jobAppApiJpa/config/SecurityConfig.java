@@ -15,7 +15,7 @@ import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
 @EnableWebSecurity
-public class securityConfig {
+public class SecurityConfig {
 
     @Autowired
     private MyUserDetailsService userDetailsService;
@@ -23,7 +23,6 @@ public class securityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(customizer -> customizer.disable());
-
         http.authorizeHttpRequests(
                 request -> request
 //                        .requestMatchers("register").permitAll() //لاگین توی این روت دیگه لازم نیست انجام بشه
